@@ -3,4 +3,7 @@ class Application < Sinatra::Base
 get '/' do 
   erb :index 
 end
+get '/gteet' do 
+  erb :greet 
+end
 end
